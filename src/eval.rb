@@ -114,20 +114,6 @@ class Eval
         l_eval function.code, new_binding
       end
 
-
-#    when '+'
-#      args.to_a.map { |a| 
-#        a.is_a?(Atom) ?
-#          a.value.to_i :
-#          l_eval(a, binding)
-#      }.reduce(&:+)
-#
-#    when '*'
-#      args.to_a.map { |a| 
-#        a.is_a?(Atom) ?
-#          a.value.to_i :
-#          l_eval(a, binding)
-#      }.reduce(&:*)
     end
 
   end

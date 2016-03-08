@@ -146,26 +146,6 @@ describe Eval do
       end
     end
 
-#    it 'performs operation' do 
-#      exp = expression_for("(1 1)")
-#      ev  = Eval.new
-#      out = ev.l_apply('+', exp, LispBinding.new)
-#      expect(out).to eq(2) 
-#    end
-#
-#    it 'performs different operation' do 
-#      exp = expression_for("(2 3)")
-#      ev  = Eval.new
-#      out = ev.l_apply('*', exp, LispBinding.new)
-#      expect(out).to eq(6) 
-#    end
-#
-#    it 'evaluates sub-lists' do
-#      exp = expression_for("(2 (+ 2 1))")
-#      ev  = Eval.new
-#      out = ev.l_apply('*', exp, LispBinding.new)
-#      expect(out).to eq(6) 
-#    end
   end
 
   context 'general functions' do
